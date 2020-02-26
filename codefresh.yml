@@ -37,7 +37,7 @@ steps:
               - CF_QUALITY: true
               - commit_message: '${{CF_COMMIT_MESSAGE}}'
               - Commit: '${{CF_SHORT_REVISION}}'
-              - Author: '${{CF_COMMIT_AUTHOR}}'
+              - Author: '${{CF_COMMIT_AUTHOR}}_test'
               - Commit_url: '${{CF_COMMIT_URL}}'
     on_fail:
       metadata:
